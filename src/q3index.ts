@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
 
 async function main(): Promise<void> {
-  const file = readFileSync('./input.txt', 'utf-8');
+  const file = readFileSync('./q3input.txt', 'utf-8');
   const rucksacks: string[] = [];
   for (const line of file.split(/\n/)) {
     rucksacks.push(line);

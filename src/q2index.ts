@@ -6,7 +6,7 @@ const win = 6;
 const draw = 3;
 const lose = 0;
 async function main(): Promise<void> {
-  const file = readFileSync('./input.txt', 'utf-8');
+  const file = readFileSync('./q2input.txt', 'utf-8');
 
   let totalScoreP1 = 0;
   let totalScoreP2 = 0;

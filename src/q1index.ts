@@ -1,7 +1,7 @@
 import { readFileSync, appendFile } from 'fs';
 
 async function main(): Promise<void> {
-  const file = readFileSync('./input.txt', 'utf-8');
+  const file = readFileSync('./q1input.txt', 'utf-8');
   let countArray: number[] = [];
   let max = 0;
   let topThreeSummed = 0;
