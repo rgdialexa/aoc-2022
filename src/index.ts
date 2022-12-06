@@ -1,9 +1,7 @@
 import { readFileSync } from 'fs';
 
-async function main(): Promise<void> {
-  const file = readFileSync('./q5input.txt', 'utf-8');
-
-  const dataSets = file.split(/\n\n/);
+async function main() {
+  const file = readFileSync('./q6input.txt', 'utf-8');
 }
 
 main();
